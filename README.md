@@ -36,7 +36,7 @@ return array(
 # Ayarlar
 
 ```code
-php artisan vendor:publish
+php artisan vendor:publish --provider="Phpuzem\Netgsm\SmsServiceProvider"
 ```
 komutunu kullanarak ``` config/sms/sms.php``` dosyasını yayınlıyoruz.
 
